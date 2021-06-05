@@ -1,0 +1,8 @@
+* picolibrary.l
+** Introduction
+A function to include picolisp libraries. Checks for libraries in the
+.modules folder located in the same folder you're working in.
+** Usage
+#+BEGIN_SRC lisp
+  (include "urlencode.l" "required.l")
+#+END_SRC
